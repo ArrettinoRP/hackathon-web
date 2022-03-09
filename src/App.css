@@ -19,6 +19,7 @@ body {
 .body_container{
   padding-top: 65px;
 }
+
 @media (max-width: 768px) {
   .body_container{
     padding-top: 60px;
