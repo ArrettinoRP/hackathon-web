@@ -19,5 +19,6 @@ module.exports = {
         'arrow-body-style': 'off',
         'prefer-arrow-callback': 'off',
         'react/react-in-jsx-scope': 'off',
+        'react-hooks/exhaustive-deps': 'off',
     },
 };
