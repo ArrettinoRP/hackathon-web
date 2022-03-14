@@ -1,0 +1,41 @@
+.hackathon_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.back_icon_container {
+    align-self: flex-start;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.back_icon_container svg {
+    width: 50px;
+    height: 50px;
+}
+
+.hackathon_title {
+    text-align: center;
+}
+
+.hackathon_details_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hackathon_list_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

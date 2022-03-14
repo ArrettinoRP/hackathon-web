@@ -1,0 +1,13 @@
+.developer_card_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #7d7d7d;
+    padding: 10px 30px;
+    width: 100%;
+}
+
+.developer_card_container img {
+  border-radius: 50%;
+  height: 60px;
+}
