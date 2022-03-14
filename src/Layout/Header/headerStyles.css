@@ -50,6 +50,7 @@
 .logo {
   width: 132px;
   margin-top: 9px;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -140,6 +141,7 @@
       top: 0px;
       right: 15px;
       font-size: 2rem;
+
     }
   
     .navbar-container input[type="checkbox"]:checked ~ .menu-items {

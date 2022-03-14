@@ -1,9 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Logo } from '../../assets/icons';
 import './headerStyles.css';
 
 export const Header: React.FC = () => {
+    const navigate = useNavigate();
+    const onClick = () => {
+        navigate('/');
+    };
     return (
         <nav className="navbar">
             <div className="navbar-container container">
@@ -21,7 +25,7 @@ export const Header: React.FC = () => {
                         <Link to="/top-developers">Top Developers</Link>
                     </li>
                 </ul>
-                <div className="logo">
+                <div className="logo" onClick={onClick}>
                     <Logo />
                 </div>
             </div>
