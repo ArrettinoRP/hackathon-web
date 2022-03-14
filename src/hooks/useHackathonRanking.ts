@@ -6,5 +6,9 @@ export const useHackathonRanking = () => {
             const response = await axios.get(`http://localhost:5000/hackathon-ranking/hackathon/${id}`);
             return response.data;
         },
+        getDevelopersRanking: async () => {
+            const response = await axios.get('http://localhost:5000/hackathon-ranking/developers-ranking');
+            return response.data;
+        },
     };
 };
